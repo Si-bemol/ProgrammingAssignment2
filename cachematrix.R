@@ -17,7 +17,7 @@ makeCacheMatrix <- function(z = matrix(sample(1:100,9),3,3)) {
 }
 
 ## Again we change the "mean to "solve"
-
+##cachesolve function to get the cache data
 
 cacheSolve <- function(z, ...) {
         f <- z$getsolve()
